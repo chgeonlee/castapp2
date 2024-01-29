@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "castapp2",
+    "name": "castapp",
     "slug": "castapp2",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,11 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.leechunggeon.castapp2"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "59ba55d6-2c19-4733-aa20-068e78cce3fe"
+      }
     }
   }
 }
